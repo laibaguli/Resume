@@ -1,0 +1,73 @@
+body{
+  background-color: #d3d0d0;
+}
+
+.MainDiv{
+  justify-content: center;
+  text-align: center;
+}
+
+.MainDiv1 {
+  display: flex;
+  justify-content: center;
+}
+
+.MainDiv2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  color: #020264;
+}
+
+h2{
+  color: #020264;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+@media  (max-width: 768px) {
+  body{
+    background-color: #9ad3f8;
+  }
+  h1{
+    color: #070bfa;
+  }
+  h2{
+    color: #070bfa;
+  }
+
+}
+
+@media (max-width:1279px) {
+  body{
+    background-color: #f3ddc0;
+  }
+  h1{
+    color: #d68080;
+  }
+  h2{
+    color: #d68080;
+  }
+}
+
+button{
+  padding: 5px 8px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #000000;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border-color: #000000;
+  
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #080808;
+  color: #FFF;
+}
